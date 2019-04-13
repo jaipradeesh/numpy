@@ -1,5 +1,13 @@
 version = 1
 
+test_patterns = [
+  'numpy/**/test_*.py'
+]
+
+exclude_patterns = [
+  'numpy/compat/*.py'
+]
+
 [[analyzers]]
 name = 'python'
 enabled = true
